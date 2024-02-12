@@ -1,0 +1,146 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Nav Bar */
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-text {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero-text p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
+
+/* Projects */
+.projects {
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+.cards {
+    display:flex;
+    justify-content: space-around;
+    gap:32px;
+    flex-flow: row wrap;
+}
+
+.card {
+    max-width: 150px;
+    color: #1f293700;
+    transition:ease-in .7s;
+}
+
+.card:hover {
+    color: #1F2937;
+}
+.project-img {
+    width:144px;
+    height:144px;
+    border: 3px solid #1F2937;
+    background-image: linear-gradient(180deg, #1F2937, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    transition: ease 0.1s;
+}
+
+.project-img:hover {
+    transform:scale(1.05);
+}
+
+/* Knowledge */
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.knowledge p {
+    font-size: 24px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.knowledge button {
+    padding-right: 10px;
+    /* more to come for the buttons */
+}
+
+/* About Me */
+.about-me p {
+    padding-left: 25px;
+    text-align: left;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
